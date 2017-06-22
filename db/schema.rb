@@ -39,4 +39,8 @@ ActiveRecord::Schema.define(version: 20170620205305) do
     t.datetime "updated_at",       null: false
   end
 
+<<<<<<<<< saved version
 end
+=========
+0
+>>>>>>>>> local version
