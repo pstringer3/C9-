@@ -35,4 +35,8 @@ ActiveRecord::Schema.define(version: 20170620214139) do
   
   end
 
+<<<<<<<<< saved version
 end
+=========
+0
+>>>>>>>>> local version
