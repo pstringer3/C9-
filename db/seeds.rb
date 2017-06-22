@@ -1,3 +1,4 @@
+
 10.times do |blog|
       Blog.create!(
       title: "My blog post #{blog}",
