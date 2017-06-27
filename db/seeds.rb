@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+
 10.times do |blog|
     Blog.create!(
         title:"My Blog Post #{blog}",
@@ -29,4 +30,6 @@
             end
             puts "9 portfolio_items created"
             
+
+
 
