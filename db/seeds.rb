@@ -21,7 +21,7 @@ puts "5 skills Created"
   Portfolio.create!(
 title: "Portfolio title: #{portfolio_item}",
 subtitle:"My great service" , 
-body:"nuns" ,
+body:"stamp" ,
 main_image:"http://via.placeholder.com/600x400" , 
 thumb_image: "http://via.placeholder.com/350x200"
                  )
