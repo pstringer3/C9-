@@ -25,6 +25,6 @@ subtitle:"My great service" ,
 body:"stamp" ,
 main_image:"http://via.placeholder.com/600x400" , 
 thumb_image: "http://via.placeholder.com/350x200"
-                 )
+    )
 end
-             
+    puts "9 portfolio items created"         
