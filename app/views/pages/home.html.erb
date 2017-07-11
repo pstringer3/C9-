@@ -1,14 +1,8 @@
 <h1>Hi, <%= current_user.first_name %></h1>
-<p></p>
+<p>Find me in app/views/pages/home.html.erb</p>
 
 <h1>Blog Posts</h1>
-<% @posts.inspect %>
+<%= @Posts.inspect %>
 
 <h1>Skills</h1>
-<%= @skills.inspect %>
-
-<hr>
-
-<%= content_tag :p, class: "My-special-class" do %>
-Hi, i'm a paragraph tag
-<% end %>
+<%= @skills.inspect %> 
