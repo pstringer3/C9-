@@ -16,3 +16,8 @@ module ApplicationHelper
     end
   end
 end
+
+  def copyright_generator
+
+StringerViewTool::Renderer.copyright 'Parker Stringer', 'All rights reserved'
+end
