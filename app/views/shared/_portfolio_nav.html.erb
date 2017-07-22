@@ -2,17 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 py-4">
-        <h4 class="text-white">About</h4>
-        <p class="text-muted">I'm a teenager I don't have a job this site is more of a resume type of thing. </p>
+        <h4 class="text-white">Portfolio Page</h4>
+        <p class="text-muted"> </p>This page is used for Resumes and job applications</p>
       </div>
       <div class="col-sm-4 py-4">
         <h4 class="text-white">Explore</h4>
         <ul class="list-unstyled">
-          <li><%= link_to "Home", root_path, class: 'text-white' %></li>
-          <li><%= link_to "About Me", about_me_path, class: 'text-white' %></li>
-          <li><%= link_to "Contact", contact_path, class: 'text-white' %></li>
-          <li><%= link_to "Blog", blogs_path, class: 'text-white' %></li>
-          <li><%= link_to "Portfolio", portfolios_path, class: 'text-white' %></li>
+          <%= nav_helper 'text-white', 'li' %>
           <li><%= login_helper 'text-white' %></li>
         </ul>
       </div>
