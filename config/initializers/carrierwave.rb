@@ -1,4 +1,6 @@
-arrierWave.configure do |config|
+=begin (commented out by Deepzai, you don't want to use CarrierWave-AWS yet so this needs to be commented out. Remove (=)begin and (=)end if you want to uncomment. So line 1 and 20.)
+
+CarrierWave.configure do |config|
   config.storage    = :aws
   config.aws_bucket = ENV.fetch('S3_BUCKET_NAME')
   config.aws_acl    = 'public-read'
@@ -14,3 +16,5 @@ arrierWave.configure do |config|
     region:            ENV.fetch('AWS_REGION') # Required
   }
 end
+
+=end
