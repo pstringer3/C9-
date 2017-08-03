@@ -1,13 +1,20 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
-    <p>New Blogs monthly</p>
+    <h4>About</h4>.
+  <p>This is where you get to know what is going on with my life. New blog every month</p>
+  </div>
+
+  <div class="sidebar-module">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
   </div>
 
   <div class="sidebar-module">
     <h4>Elsewhere</h4>
     <ol class="list-unstyled social-links">
-      <li><a href="https://github.com/pstringer3/C9-"><%= fa_icon "github" %></a></li>
+      <li><a href="https://github.com/pstringer3"><%= fa_icon "github" %></a></li>
       <li><a href="https://www.instagram.com/parker_stringer/"><%= fa_icon "instagram" %></a></li>
       <li><a href="https://www.facebook.com/parker.stringer.1"><%= fa_icon "facebook" %></a></li>
       <li><a href="https://twitter.com/pstringer31"><%= fa_icon "twitter" %></a></li>
