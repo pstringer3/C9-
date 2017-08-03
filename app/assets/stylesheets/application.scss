@@ -27,11 +27,9 @@ a:hover {
  * Base structure
  */
 
-
 html,
 body {
   height: 100%;
-  font-family: 'Lato', sans-serif;
 }
 body {
   color: #fff;
@@ -45,9 +43,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Roboto Slab', serif;
+   font-family: 'manuale', serif;
 }
-
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -252,9 +249,4 @@ h6, .h6 {
 .card-block {
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.skill {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
